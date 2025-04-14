@@ -1,0 +1,81 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url("BGlight.jpg");
+    background: size 50vw auto;
+    background-position:center; 
+    
+
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(75, 37, 128, 0.2);
+    width: 80%;
+    background: url('https://img.freepik.com/premium-photo/seamless-pattern-decorative-royal-crowns-golden-background_199743-24700.jpg?ga=GA1.1.1628900670.1703608301&semt=ais_hybrid');
+    background-size: cover;
+    background-size: contain;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.player {
+    text-align: center;
+}
+
+button {
+    padding: 20px 30px;
+    font-size: 30px;
+    font-style: italic;
+    cursor: pointer;
+    background-color: #802687;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3c094b;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px auto;
+    color: #FFD700
+}
+#player1Score , #player2Score , #player3Score{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    color:rgb(79, 46, 3);
+    margin-top: 10px;
+    font-size: 35px;
+    font-style: italic;
+}
+h1{
+    font-weight:900;
+    font-size: 50px;
+}
